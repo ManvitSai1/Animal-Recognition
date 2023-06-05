@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+    <div id="header">
+        Welcome to Animal Recognition App
+    </div>
+    <div class="main_div">
+        <br>
+        <button class="btn btn-warning" onclick="startClassification()" id="start"> START </button>
+        <h3 id="listen">I can listen to:</h3>
+        <h3 id="note">Note: This app understands only sounds of dogs and cats, the sounds should be nearly accrate and precise</h3>
+        <br> <br> <img src="cat.jpeg" id="alien_1" width="300" height="300">
+        <img src="dog.jpeg" id="alien_2" width="300" height="300">
+        </br>
+
+    </div>
+    
+        <br>
+        <div class="copy_right_footer">
+            Devolped By-WhiteHat Jr
+
+    </div>
+    </center>
+    <script src="main.js"></script>
+
+</body>
+</html>
